@@ -20,7 +20,7 @@ const GameGrid = (props: AppNS.IGameGridProps) => {
                                     height: `${cellHeight}vh`,
                                     width: `${cellWidth}vw`,
                                     backgroundColor: `${eachColumn.isOpen?'white':'#7EC850'}`,
-                                    boxShadow: '0px 0px 1px 1px #70543e',
+                                    boxShadow: '0px 5px 15px rgba(0, 0, 0, 0.35) inset',
                                     display: 'flex',
                                     justifyContent: 'center',
                                     alignItems: 'center',
